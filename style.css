@@ -1,0 +1,98 @@
+*
+body{
+  font-family: Georgia; color: black;
+  padding: 10px 100px;
+  margin: 80px 80px;
+  background: white;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+  margin-bottom: 80px auto;
+  padding-bottom: 1em;
+  border-bottom: 80px auto;
+  border-left: 100px auto;
+  border-right: 100px auto;
+ }
+/* //-- core typography and style -- */
+h1{
+  display: block;
+  margin: 1em 0 1em 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid black;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration-color: black;
+}
+h2{
+font-style:italic;
+font-size: 185%;
+text-align: left;
+}
+h3{font-family:Georgia;
+font-size: 140%;
+font-weight: bold;
+text-indent: 10px;
+}
+h4{font-family:Georgia;
+font-size: 100%;
+font-weight: normal;
+text-indent: 150px;
+}
+h5{font-family:Georgia;
+font-size: 120%;
+font-weight:bold;
+text-indent: 150px;
+}
+h1, h2, h3, h4 { color: #333;
+}
+p{font-size: 90%;
+  line-height: 18px;
+  padding-left: 3em;
+  text-indent: 200px
+}
+a {color: red;
+}
+/* //-- section styles -- */
+.Information{position: relative;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid black;
+}
+.First{position: relative;
+  margin-left: 10em;
+  padding-bottom: 2em;
+  border-bottom: 0.5px solid black;
+}
+.First h3{position: top: 1em; left: 0}
+.First h4{margin: 0.75em 1 3em 0;}
+.First h5{margin:-40px 0px 50px 300px; }
+.First p{margin: -44px 0px 19px 207px;
+}
+.Second{position: relative;
+  margin-left: 10em;
+  padding-bottom: -1em;
+  border-bottom: 0.5px solid black;
+}
+.Second h3{position: top: 1em; left: 0}
+.Second h4{margin: 0.75em 1 3em 0;}
+.Second h5{margin:-40px 0px 50px 300px; }
+.Second p{margin: -44px 0px 19px 207px;
+}
+.Third{position: relative;
+  margin-left: 10em;
+  padding-bottom: 2em;
+  border-bottom: 0.5px solid black;
+}
+.Third h3{position: top: 1em; left: 0}
+.Third h4{margin: 0.75em 1 3em 0;}
+.Third h5{margin:-40px 0px 50px 300px;}
+.Third p{margin: -44px 0px 19px 207px;
+}
+.list li{list-style-type: circle;
+  list-style-position: inside;
+        font-style: Georgia;
+        font-size:115%;
+        padding-left: 3em;
+        text-indent: 200px;
+        margin:10px 0px 19px -100px;
+}
